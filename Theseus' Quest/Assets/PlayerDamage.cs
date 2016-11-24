@@ -18,7 +18,7 @@ public class PlayerDamage : MonoBehaviour {
 	
 	}
 
-    void OnCollsionEnter(BoxCollider other)
+    void OnCollsionEnter(Collision other)
     {
         Debug.Log("Collide!");
         if (other.gameObject.CompareTag("Enemy"))
